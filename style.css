@@ -1,0 +1,33 @@
+borderparcial {
+    width: 400px;
+    height: 400px;
+    border-top: 400px solid rgb(0, 247, 255);
+    position: relative;
+    border-radius:8%;
+}
+
+    .borderparcial::after{
+    content: "";
+    background: rgb(0, 204, 255);
+    position: absolute;
+    bottom: 60%;
+    left: 0;
+    height:40%;
+    width: 20px;
+    }
+
+    .borderparcialderecho::after{
+    content: "";
+    background:rgb(212, 0, 255);
+    position: absolute;
+    bottom: 60%;
+    left: 40%;
+    height: 40%;
+    width: 20px;
+    }
+
+    .imageninterior{
+    width: 40%;
+    height: 40%;
+    padding: 20px;
+    }
