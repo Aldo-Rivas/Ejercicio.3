@@ -1,14 +1,14 @@
 borderparcial {
     width: 400px;
     height: 400px;
-    border-top: 400px solid rgb(0, 247, 255);
+    border-top: 400px solid rgb(0, 255, 0);
     position: relative;
     border-radius:8%;
 }
 
     .borderparcial::after{
     content: "";
-    background: rgb(0, 204, 255);
+    background: rgb(0, 255, 13);
     position: absolute;
     bottom: 60%;
     left: 0;
@@ -18,7 +18,7 @@ borderparcial {
 
     .borderparcialderecho::after{
     content: "";
-    background:rgb(212, 0, 255);
+    background:rgb(255, 8, 0);
     position: absolute;
     bottom: 60%;
     left: 40%;
